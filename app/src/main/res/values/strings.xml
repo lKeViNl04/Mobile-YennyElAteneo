@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ElAteneo</string>
+
+    <string name="admin">Admin</string>
+    <string name="detail_admin">Detalle\n(admin)</string>
+    <string name="see_book_admin">Ver Libro\n(admin)</string>
+
+    <string name="detail">Detalle</string>
+    <string name="see_book">Ver Libro</string>
+    <string name="favorite">Favorito</string>
+    <string name="login">Inicia Sesion</string>
+    <string name="signin">Registrase</string>
+
+    <string name="yenny_el_ateneo">YENNY EL ATENEO</string>
+    <string name="yenny_nel_ateneo">YENNY\nEL ATENEO</string>
+
+    <string name="go_on">Continuar</string>
+    <string name="go_back">Volver</string>
+    <string name="see_user">Ver Usuario</string>
+
+    <string name="not_fovorites">No hay Favoritos</string>
+
+    <string name="title_book">Titulo del libro</string>
+    <string name="author_book">Autor</string>
+    <string name="price_book">Precio</string>
+    <string name="description_book">Este sera la descripcion</string>
+    <string name="image_book">image</string>
+    <string name="edit_book">Editar libro</string>
+    <string name="delete_book">Eliminar libro</string>
+    <string name="add_book">Agregar libro</string>
+
+    <string name="image_logo">image</string>
+
+    <string name="password">Contraseña</string>
+    <string name="email">Email</string>
+    <string name="username">Nick</string>
+
+</resources>

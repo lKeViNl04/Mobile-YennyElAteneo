@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?><androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/shape_forma"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/laurentianstdsemibold"
+        android:text="@string/yenny_nel_ateneo"
+        android:textAlignment="textStart"
+        android:textColor="@color/blancoHueso"
+        android:textSize="40sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/logoElAteneo"
+        android:layout_width="104dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="144dp"
+
+        android:contentDescription="@string/image_logo"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:srcCompat="@drawable/vector_logoelateneo" />
+
+    <ImageView
+        android:id="@+id/logoYenny"
+        android:layout_width="86dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+
+        android:contentDescription="@string/image_logo"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:srcCompat="@drawable/vector_logoyenny" />
+
+    <Button
+        android:id="@+id/btnSeeBook"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:background="@drawable/shape_fondoboton"
+        android:drawableLeft="@drawable/vector_openbook"
+        android:drawablePadding="28dp"
+        android:fontFamily="@font/shrutib"
+        android:text="@string/see_book"
+        android:textSize="40sp"
+
+        app:backgroundTint="@color/azulProfundoMedio"
+
+        app:layout_constraintBottom_toTopOf="@+id/btnSeeFavorite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+
+    <Button
+        android:id="@+id/btnSeeFavorite"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:background="@drawable/shape_fondoboton"
+        android:drawableLeft="@drawable/vector_favorite"
+        android:drawablePadding="28dp"
+        android:fontFamily="@font/shrutib"
+        android:text="@string/favorite"
+        android:textSize="40sp"
+
+        app:backgroundTint="@color/azulProfundoMedio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:background="@drawable/shape_fondoboton"
+        android:drawableLeft="@drawable/vector_dashboard"
+        android:drawablePadding="28dp"
+        android:fontFamily="@font/shrutib"
+        android:text="@string/admin"
+        android:textSize="40sp"
+
+        app:backgroundTint="@color/azulProfundoMedio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSeeFavorite"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="@color/blancoHueso"
+
+        app:layout_constraintBottom_toTopOf="@+id/btnSeeBook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+# Archivos y carpetas de compilación
+.gradle/
+build/
+*/build/
+
+# Configuración local de Android Studio
+.idea/
+*.iml
+
+# Configuración local de Gradle
+local.properties
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Cachés de Kotlin/Java
+out/
+*.class
+
+# Archivos de log
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de empaquetado
+*.apk
+*.aab
+*.aar
+*.jar
+*.war
+
+# Archivos de ejecución de Gradle Wrapper
+gradle-app.setting
+
+# Ignorar backups o configuraciones locales
+captures/
+

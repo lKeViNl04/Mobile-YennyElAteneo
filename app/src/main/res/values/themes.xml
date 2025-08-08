@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.YennyElAteneo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- Fondo solo para el splash screen automático -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <!-- Opcional: ícono que se muestra en el splash -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/vector_logo</item>
+
+         <item name="android:windowBackground" >@color/azulProfundo</item>
+
+    </style>
+
+    <style name="Theme.YennyElAteneo" parent="Base.Theme.YennyElAteneo" />
+</resources>
